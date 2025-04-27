@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body, #root {
+    height: 100%;
+    width: 100%;
+}
+
+@font-face {
+    font-family: 'Menda';
+    src: url('./Fonts/Menda.woff');
+}
+
+@font-face {
+    font-family: 'Stara';
+    src: url('./Fonts/Stara.woff');
+}
