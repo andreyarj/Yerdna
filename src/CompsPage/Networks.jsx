@@ -13,15 +13,15 @@ function Networks() {
         <>
         <section className='flex flex-row flex-wrap items-center justify-center gap-[20px] w-full h-auto p-[20px] bg-white dark:bg-zinc-900'>
 
-            <Network Icon={FaFacebook} Name='Facebook'/>
+            <Network Icon={FaFacebook} Name='Facebook' Linker='https://www.facebook.com/share/1GMJW3ckjb/?mibextid=qi2Omg'/>
             
-            <Network Icon={AiFillInstagram} Name='Instagram'/>
+            <Network Icon={AiFillInstagram} Name='Instagram' Linker='https://Instagram.com/yerdna.arj'/>
 
-            <Network Icon={FaLinkedin} Name='LinkedIn'/>
+            <Network Icon={FaLinkedin} Name='LinkedIn' Linker='https://www.linkedin.com/in/andrey-araujo-8724992a7'/>
 
             <Network Icon={IoLogoWhatsapp} Name='WhatsApp'/>
 
-            <Network Icon={MdEmail} Name='Email'/>
+            <Network Icon={MdEmail} Name='Email' Linker='mailto:andrey.araujo.ofc@gmail.com'/>
 
         </section>
         </>
